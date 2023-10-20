@@ -1,0 +1,38 @@
+/* Style for the product card container */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  /* Style for the product image */
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the product name */
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Style for the product description */
+  .product-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  /* Style for the price and category */
+  .product-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  /* Style for the AuthComponent (adjust as needed) */
+  .product-card .auth-component {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
