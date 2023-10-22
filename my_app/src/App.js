@@ -10,7 +10,12 @@ import LogInComponent from './Components/LogInComponent/LogInComponent';
 import Signup from './Components/SignUp/SignUp';
 import HomeComponent from './Components/HomeComponent/HomeComponent';
 import Products from './Components/Products/Products';
-
+import ProductHooks from './Components/Hooks/ProductWithHooks/ProductWithHooks';
+import HomeWithHooks from './Components/HomeWithHooks/HomeWithHooks';
+import GetUsingHooks from './Components/GetUsingHooks/GetUsingHooks';
+import GetWithSearchAPI from './Components/GetWithSearchAPI/GetWithSearchAPI';
+import ComponentOneWithHooks from './Components/ContextWithHooks/ComponentOneWithHooks/ComponentOneWithHooks';
+import { MyContextProvider }  from './Components/ContextWithHooks/MyContext.jsx'
 function App() {
   return (
     <div className="App">
@@ -22,8 +27,16 @@ function App() {
   {/*<LogInComponent />*/}
  {/* <Signup />*/}
 {/* <HomeComponent />*/}
-<Products />
-
+{ /*<Products />*/}
+ {/* <ProductHooks /> */}
+ {/* <LogInWithHooks /> */}
+  {/* <SignUpWithHooks /> */}
+  {/* <HomeWithHooks /> */}
+   {/* <GetUsingHooks /> */}
+   {/* <GetWithSearchAPI /> */}
+   <MyContextProvider>
+   <ComponentOneWithHooks />
+   </MyContextProvider>
     
     </div>
   );
